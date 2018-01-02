@@ -1,0 +1,37 @@
+[20:57]
+(General)
+Gonna place out some time to learn express, and focus on understanding
+how the backend work.
+
+
+(Planning)
+I will perform 'sandbox learning', as I don't have a clue how to connect
+the FE stuff to the BE. I don't want to break the application or mess
+with any of the front end features just yet.
+
+So the current plan is; however I may need time integrating and learning
+about other technologies, before I can implement any BE session
+management.
+
+1) Sandbox learning - Express and create a simple app
+2) Sandbox learning - Integrate session management
+
+
+Will need to consider some security aspects of a website written in JS.
+
+> Synk
+> Helmet
+> nsp - Node Security
+
+[23:38]
+
+Learning - How do Express.js sessions work?
+
+https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/
+
+In this article, I want to share:
+
+ - What is a session?
+ - How do sessions store data?
+ - How do you determine where to keep your session data?
+ - What security implications do you have to be aware of when working with sessions?

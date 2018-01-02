@@ -1,0 +1,21 @@
+HMR is not intended for use in production, meaning it should
+only be used in development. See the building for production
+guide for more information.
+
+Using webpack-dev-middleware
+
+webpack-dev-middleware is a wrapper that will emit files
+processed by webpack to a server.
+This is used in webpack-dev-server internally, however
+it's available as a separate package to allow more custom
+setups if desired.
+We'll take a look at an example that combines
+webpack-dev-middleware with an express server.
+
+Let's install express and webpack-dev-middleware so we
+can get started:
+
+
+
+There was a tree shaking module for react - everytime the code compile
+It shows it on the console and on the bash console.

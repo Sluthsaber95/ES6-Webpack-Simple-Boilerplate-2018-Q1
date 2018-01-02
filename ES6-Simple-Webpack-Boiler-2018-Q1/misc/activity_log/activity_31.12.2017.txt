@@ -1,0 +1,106 @@
+[00:38]
+
+Decided to build my entire create a webpack config from scratch again; means going
+through the tutorials again.
+
+Create a webpack for ES6.
+Create a webpack for React and ES6.
+
+To give us absolute control over the entire project.
+
+const webpackConfig = require('./webpack.config');
+
+
+This is a clever way of organising the app.
+
+where the package.json file can run these config.
+
+Base Config = webpack.config.js
+Dev Config = webpack.config.js + webpack.config.dev.js => Development
+Prod Config = webpack.config.js + webpack.config.build.js => Production
+
+module.exports = Object.assign(webpackConfig, {
+    devtool: 'eval',
+    output: {
+        pathinfo: true,
+        publicPath: '/',
+        filename: '[name].js'
+    }
+});
+
+
+[00:53]
+
+To Do
+
+Aim: To learn enough of the below to configure a user session in
+relation to the application - the basics + applied learning
+
+Learn to create a webpack config and env [ < 4 hours]
+Create a webpack for ES6.
+Create a webpack for React and ES6.
+Learn how to use express.js - [1 Day - 16 hours (excluding break time)]
+Learn how to use mongoDB - [1 Day - 16 hours (excluding break time)]
+
+
+[11:34]
+(Notes)
+
+Sometimes when learning something new, a concept that we believe we get,
+is combined with another concept. To make the experience and reading
+documentation easier and for faster adoption. The documentation must be
+as universally friendly as possible.
+This allows the documentation available for everyone.
+
+Empathy training
+  - understanding what the audience knows
+  - understand what concepts the audience knows
+  - understand whether they have had the chance to combine 2 of the
+    concepts together
+
+Proposed new ideas,
+
+Started programming toggle - make more details more verbose to beginner
+programmers.
+   - Tests for this is to remove or add specific parts of information, see
+     whether the message is clear. Is the Author's intent clear.
+   - Remember that quizzing a user whilst they are using the documentation; i.e.
+     questions is different from
+   - After noticing the lack of Service and UX design in many industry, from
+     from 1st hand experience, such as academia.
+     Users/students are afraid to move forward, due to lack of information as
+     well as understanding and knowing what fundamental questions to ask.
+   - Know that some folks will need more additional aid understanding, due to
+     lack of knowledge, or asking the write questions.
+   - User personas of different people, from what kind of questions they ask
+     themselves, rather than just relying on what they react.
+
+Have a difficulty gage, based on
+
+- number of years of experience the person has
+- whether he or she finds it hard
+
+
+[16:24]
+
+Managed to integrate ES6 into this webpack config - there should be some
+webpack config map with notes - as whenever some developer jumps on to the
+the codebase it does quick slow down the whole team;
+
+  - Adding new members
+  - Adding more people into the team
+
+Increases communication overhead - too many devs spoiling the codebase.
+
+On a lighter note, please include webpack config for;
+
+  - ES6
+  - ES6 + Express
+  - React
+  - React + Express
+  - React + Express + MongoDB + Passport
+  => Full on session management, After
+    + Account Setup - Mlabs, Heroku etc
+
+Remember to have full documentation, on the use of libraries and tools;
+include a timestamp for activity. 
